@@ -252,9 +252,9 @@ impl Bot {
                     self.update_channels(client, &args, ChannelAction::Part)
                         .await?
                 }
-                "optout" => {
+                /*"optout" => {
                     self.optout_user(&args, sender_login, sender_id).await?;
-                }
+                }*/
                 _ => (),
             }
         }
