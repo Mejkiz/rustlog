@@ -57,7 +57,7 @@ Steps:
 
 0. Clone the repository (make sure to include submodules!):
 ```
-git clone --recursive https://github.com/boring-nick/rustlog
+git clone --recursive https://github.com/mejkiz/rustlog
 ```
 If you already cloned the repo without `--recursive`, you can initialize submodules with:
 ```
